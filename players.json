@@ -1,0 +1,34 @@
+{
+    "players": [
+        {
+            "name" : "D. Medvedev",
+            "rating" : 2159.4
+        },
+        {
+            "name" : "B. Nakashima",
+            "rating" : 1869.1
+        },
+        {
+            "name" : "M. McDonald",
+            "rating" : 1755.8
+        },
+        {
+            "name" : "A. Bublik", 
+            "rating" : 1773.9
+        },
+        {
+            "name" : "M. Giron",
+            "rating" : 1835.3
+        },
+        {
+            "name" : "G. Dimitrov",
+            "rating": 1903.9
+        },
+        {
+            "name" : "R. Bautista-Agut",
+            "rating" : 1834.1
+        }
+
+
+    ]
+}
