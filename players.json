@@ -1,8 +1,13 @@
 {
     "players": [
+        
         {
             "name" : "D. Medvedev",
             "rating" : 2159.4
+        },
+        {
+            "name" :"BYE",
+            "rating" : 0
         },
         {
             "name" : "B. Nakashima",
@@ -28,7 +33,7 @@
             "name" : "R. Bautista-Agut",
             "rating" : 1834.1
         }
-
+        
 
     ]
 }

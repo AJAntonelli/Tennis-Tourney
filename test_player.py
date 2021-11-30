@@ -14,7 +14,7 @@ class Test_Player(unittest.TestCase):
 
     def test_initialize(self):
         expectedName = "D. Medvedev"
-        expectedRating = 2159.4
+        expectedRating = 215
         actual = player.Player(expectedName, expectedRating)
         self.assertEqual(expectedName, actual.name) 
         self.assertEqual(expectedRating, actual.rating) 
