@@ -32,7 +32,234 @@
         {
             "name" : "R. Bautista-Agut",
             "rating" : 1834.1
+        },
+        {
+            "name" :"H. Hurkacz",
+            "rating" : 1904.1
+        },
+        {
+            "name" :"A. Davidovich Fokina",
+            "rating" : 1816.6
+        },
+        {
+            "name" : "R. Gausquet",
+            "rating" : 1777.6
+        },
+        {
+            "name" : "A. Murray",
+            "rating" : 1884.3
+        },
+        {
+            "name" : "D. Koepfer",
+            "rating" : 1747.8
+        },
+        {
+            "name" : "J-L. Struff",
+            "rating" : 1774.9
+        },
+        {
+            "name" : "BYE",
+            "rating" : 0
+        },
+        {
+            "name" : "P. Carreno-Busta",
+            "rating" : 1937.8
+        },
+        {
+            "name" : "A. Rublev",
+            "rating" : 1962.7
+        },
+        {
+            "name" : "BYE",
+            "rating" : 0
+        },
+        {
+            "name" : "A. Karatsev",
+            "rating" : 1872.8
+        },
+        {
+            "name" : "M. Cilic",
+            "rating" : 1898.4
+        },
+        {
+            "name" : "D. Lajovic",
+            "rating" : 1704.0
+        },
+        {
+            "name" : "G. Monfils",
+            "rating" : 1822.1
+        },
+        {
+            "name" : "F. Krajinovic",
+            "rating" : 1787.5
+        },
+        {
+            "name" : "A. De Minaur",
+            "rating" : 1783.8
+        },
+        {
+            "name" : "J. Sinner",
+            "rating" : 1967.4
+        },
+        {
+            "name" : "F. Delbonis",
+            "rating" : 1725.8
+        },
+        {
+            "name" : "J. Isner",
+            "rating" : 1906.0
+        },
+        {
+            "name" : "C. Norrie",
+            "rating" : 1952.9
+        },
+        {
+            "name" : "M. Kecmanovic",
+            "rating" : 1675.3
+        },
+        {
+            "name" : "B. Paire",
+            "rating" : 1660.8
+        },
+        {
+            "name" : "BYE",
+            "rating" :0
+        },
+        {
+            "name" : "D. Shapovalov",
+            "rating" : 1855.7
+        },
+        {
+            "name" : "C. Ruud",
+            "rating" : 2017.6
+        },
+        {
+            "name" : "BYE",
+            "rating" : 0
+        },
+        {
+            "name" : "R. Opelka",
+            "rating" : 1842.2
+        },
+        {
+            "name" : "C. Moutet",
+            "rating" : 1747.0
+        },
+        {
+            "name" : "F. Tiafoe",
+            "rating" : 1891.7
+        },
+        {
+            "name" : "U. Humbert",
+            "rating" : 1821.0
+        },
+        {
+            "name" : "D. Evans",
+            "rating" : 1821.7
+        },
+        {
+            "name" : "D. Schwartzman",
+            "rating" : 1924.6
+        },
+        {
+            "name" : "D. Goffin",
+            "rating" : 1812.5
+        },
+        {
+            "name" : "G. Pella",
+            "rating" : 1726.4
+        },
+        {
+            "name" : "F. Fognini",
+            "rating" : 1793.4
+        },
+        {
+            "name" : "N. Basilashvili",
+            "rating" : 1831.4
+        },
+        {
+            "name" : "Y. Nishioka",
+            "rating" : 1754.7
+        },
+        {
+            "name" : "L. Harris",
+            "rating" : 1870.5
+        },
+        {
+            "name" : "BYE",
+            "rating" : 0
+        },
+        {
+            "name" : "A. Zverv",
+            "rating" : 2149.5
+        },
+        {
+            "name" : "M. Berrettini",
+            "rating" : 2012.3
+        },
+        {
+            "name" : "BYE",
+            "rating" : 0
+        },
+        {
+            "name" : "T. Fritz",
+            "rating" : 1894.4
+        },
+        {
+            "name" : "A. Ramos",
+            "rating" : 1722.5
+        },
+        {
+            "name" : "K. Anderson",
+            "rating" : 1812.7
+        },
+        {
+            "name" : "K. Khachanov",
+            "rating" : 1883.7
+        },
+        {
+            "name" : "M. Fucsovics",
+            "rating" : 1824.1
+        },
+        {
+            "name" : "F. Auger-Aliassime",
+            "rating" : 1907.8
+        },
+        {
+            "name" :"C. Garin",
+            "rating" : 1793.4
+        },
+        {
+            "name" : "T. Paul",
+            "rating" : 1887.7
+        },
+        {
+            "name" : "L. Sonego",
+            "rating" : 1831.5
+        },
+        {
+            "name" : "C. Alcaraz",
+            "rating" : 2029.6
+        },
+        {
+            "name" : "S. Korda",
+            "rating" : 1915.9
+        },
+        {
+            "name" : "L. Djere",
+            "rating" : 1707.2
+        },
+        {
+            "name" : "BYE",
+            "rating" : 0
+        },
+        {
+            "name" : "S. Tsitsipas",
+            "rating" : 2038.4
         }
+
+
+
         
 
     ]
