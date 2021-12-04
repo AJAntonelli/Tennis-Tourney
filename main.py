@@ -14,8 +14,15 @@ def get_tournament_bracket_data(file_path: str) -> dict:  #gets the data from th
     f.close()
     return bracket_data
 
-def player_name_rating(players, players_data): #associates the name and rating to players
-    for p in players_data['players']:
+def map_players(bracket_data: dict) -> list: #associates the name and rating to players
+    '''Maps JSON data to list of Player objects.
+
+    Keywaord arguments:
+    bracket_data -- Dictionary containing touranment data
+
+    '''
+    players = []
+    for p in bracket_data['players']:
         players.append(player.Player(p['name'], p['rating']))
     return players
 
@@ -40,12 +47,11 @@ def player_vs_bye(players_next_round, player_name_1, player_name_2): #what if a 
 
 #Program Start
 players_next_round = []
-players = []
 round_number = 1
 
-players_data = get_tournament_bracket_data('players.json')
+bracket_data = get_tournament_bracket_data('players.json')
 
-players = player_name_rating(players, players_data)
+players = map_players(bracket_data)
 
 while len(players) > 1:
     print('\nRound: ', round_number)
