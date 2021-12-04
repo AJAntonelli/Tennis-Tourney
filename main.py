@@ -37,13 +37,13 @@ def win_probability(players_next_round, player_name_1, player_name_2):
         players_next_round.append(player_name_2)
         print('Player Two Wins!: ', player_name_2.name)
         
-def player_vs_bye(players_next_round, player_name_1, player_name_2): #what if a player goes against a bye
-    if player_name_1.name == "BYE" or player_name_2.name == "BYE":
-        if player_name_1.name == "BYE":
-            players_next_round.append(player_name_2)
-        else:
-            players_next_round.append(player_name_1)
-    return players_next_round
+# def player_vs_bye(players_next_round, player_name_1, player_name_2): #what if a player goes against a bye
+#     if player_name_1.name == "BYE" or player_name_2.name == "BYE":
+#         if player_name_1.name == "BYE":
+#             players_next_round.append(player_name_2)
+#         else:
+#             players_next_round.append(player_name_1)
+#     return players_next_round
 
 #Program Start
 players_next_round = []
