@@ -62,17 +62,21 @@ while len(players) > 1:
         player_two = players.pop()
         print("\n" + player_one.name, "vs", player_two.name)
 
-        #check for bye, determine winner, append winner to next round
+        #determine match
+        winner = None
         if player_one.is_bye() or player_two.is_bye():
             if player_one.is_bye():
-                players_next_round.append(player_two)
+                winner = player_two
             else:
-                players_next_round.append(player_one)
+                winner = player_one
         else:
             wp = calculate_player_one_win_probability(player_one, player_two)
             winner = player_one if random.random() <= wp else player_two
-            players_next_round.append(winner)
             print_winner(winner)
+        
+        #advance winner
+        players_next_round.append(winner)
+            
     #end match loop
 
     #increment for next round
