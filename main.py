@@ -26,15 +26,6 @@ def map_players(bracket_data: dict) -> list: #associates the name and rating to 
         players.append(Player(p['name'], p['rating']))
     return players
 
-def calculate_player_one_win_probability(player1: Player, player2: Player) -> float:
-    '''Returns the win probability of the first player
-    
-    Keyword arguments:
-    player1 -- The first player 
-    player2 -- The second player
-    '''
-    return player1.rating / (player1.rating + player2.rating)
-    
 def print_winner(winner):
     '''Prints the winner of a match
 
@@ -70,13 +61,12 @@ while len(players) > 1:
             else:
                 winner = player_one
         else:
-            wp = calculate_player_one_win_probability(player_one, player_two)
+            wp = player_one.rating / (player_one.rating + player_two.rating)
             winner = player_one if random.random() <= wp else player_two
             print_winner(winner)
         
         #advance winner
         players_next_round.append(winner)
-            
     #end match loop
 
     #increment for next round
