@@ -35,13 +35,11 @@ def calculate_player_one_win_probability(player1: Player, player2: Player) -> fl
     '''
     return player1.rating / (player1.rating + player2.rating)
     
-def determine_winner(player1, player2, win_probability):   
-    if random.random() <= win_probability:
-        players_next_round.append(player1)
-        return player1
-    else:
-        players_next_round.append(player2)
-        return player2
+# def determine_winner(player1, player2, win_probability):   
+#     if random.random() <= win_probability:
+#         return player1
+#     else:
+#         return player2
 
 def print_winner(winner):
     '''Prints the winner of a match
@@ -78,7 +76,8 @@ while len(players) > 1:
                 players_next_round.append(player_one)
         else:
             wp = calculate_player_one_win_probability(player_one, player_two)
-            winner = determine_winner(player_one, player_two, wp)
+            winner = player_one if random.random() <= wp else player_two
+            players_next_round.append(winner)
             print_winner(winner)
     #end match loop
 
