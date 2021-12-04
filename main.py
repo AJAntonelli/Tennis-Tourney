@@ -2,13 +2,17 @@ import random
 import json
 import player
 
-def data(): #gets the data from the json file
-    f = open('players.json')
-    players_data = json.load(f)
+def get_tournament_bracket_data(file_path: str) -> dict:  #gets the data from the json file
+    '''Get tournament bracket data from JSON file.
+
+    Keyword arguments:
+    file_path -- the file path (default None)
+
+    '''
+    f = open(file_path)
+    bracket_data = json.load(f)
     f.close()
-    print(players_data)
-    print(players_data['players'])
-    return players_data
+    return bracket_data
 
 def player_name_rating(players, players_data): #associates the name and rating to players
     for p in players_data['players']:
@@ -39,7 +43,7 @@ players_next_round = []
 players = []
 round_number = 1
 
-players_data = data()
+players_data = get_tournament_bracket_data('players.json')
 
 players = player_name_rating(players, players_data)
 
