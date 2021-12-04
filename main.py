@@ -61,9 +61,16 @@ while len(players) > 1:
     while len(players) > 1:
         player_one = players.pop()
         player_two = players.pop()
-        print(player_one.name, "vs", player_two.name)
-        players_next_round = player_vs_bye(players_next_round, player_one, player_two)
-        win_probability(players_next_round, player_one, player_two)
+        print("\n" + player_one.name, "vs", player_two.name)
+
+        #check for bye, determine winner, append winner to next round
+        if player_one.is_bye() or player_two.is_bye():
+            if player_one.is_bye():
+                players_next_round.append(player_two)
+            else:
+                players_next_round.append(player_one)
+        else:
+            win_probability(players_next_round, player_one, player_two)
     #end match loop
 
     #increment for next round
@@ -72,4 +79,4 @@ while len(players) > 1:
     players_next_round = []
 #end round loop
 
-print('\nThe predicted winner of the tournament is: ', players[0].name)
+print('\nThe predicted winner of the tournament is:', players[0].name + '\n')
