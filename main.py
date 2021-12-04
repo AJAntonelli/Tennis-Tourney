@@ -35,12 +35,6 @@ def calculate_player_one_win_probability(player1: Player, player2: Player) -> fl
     '''
     return player1.rating / (player1.rating + player2.rating)
     
-# def determine_winner(player1, player2, win_probability):   
-#     if random.random() <= win_probability:
-#         return player1
-#     else:
-#         return player2
-
 def print_winner(winner):
     '''Prints the winner of a match
 
